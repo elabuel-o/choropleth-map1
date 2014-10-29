@@ -28,7 +28,7 @@ str(mapMex)
 lifeExp <- read.csv("life.csv", header = TRUE)
 
 ## Notice that the ids in the mapMex dataframe begin with "0", and the ids in 
-## the lifeExp dataframe begin with 1. Additionally, id in mapMex is of 
+## the lifeExp dataframe begin with "1". Additionally, id in mapMex is of 
 ## class "character".
 mapMex$id <- as.numeric(mapMex$id)
 mapMex$id <- mapMex$id + 1
